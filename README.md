@@ -1,5 +1,5 @@
 
-### mcp configuration
+### mcp 配置
 ```shell
 {
   "mcpServers": {
