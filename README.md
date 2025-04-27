@@ -44,7 +44,7 @@ DeFiLlama MCP is built using a modular architecture that separates the data-fetc
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/defillama-mcp.git
+git clone https://github.com/demcp/defillama-mcp.git
 cd defillama-mcp
 
 # Create a virtual environment and install dependencies
@@ -59,7 +59,7 @@ uv run defillama.py
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/defillama-mcp.git
+git clone https://github.com/demcp/defillama-mcp.git
 cd defillama-mcp
 
 # Build the Docker image
@@ -250,9 +250,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or discussions about this project, please open an issue on GitHub or contact the maintainers:
 
-- GitHub Issues: [https://github.com/yourusername/defillama-mcp/issues](https://github.com/yourusername/defillama-mcp/issues)
-- Email: your.email@example.com
-- Twitter: [@yourusername](https://twitter.com/yourusername)
+- GitHub Issues: [https://github.com/demcp/defillama-mcp/issues](https://github.com/demcp/defillama-mcp/issues)
 
 ---
 
