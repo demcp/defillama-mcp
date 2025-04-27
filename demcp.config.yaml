@@ -1,0 +1,276 @@
+- name: defillama
+  description: "A tool for getting information about defi protocols"
+  version: 1.0.0
+  mcp_config:
+    - tools:
+        - name: get_protocols
+          description: "Get a list of all defi protocols"
+          parameters:
+            - name: count
+              type: integer
+              description: "The number of protocols to return"
+              default: 10
+        - name: get_protocol_tvl
+          description: "Get the total value locked for a defi protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the total value locked for"
+              default: "ethereum"
+        - name: get_chain_tvl
+          description: "Get the total value locked for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the total value locked for"
+              default: "ethereum"
+        - name: get_token_prices
+          description: "Get the prices for a token"
+          parameters:
+            - name: token
+              type: string
+              description: "The token to get the prices for"
+            - name: chain
+              type: string
+              description: "The chain to get the prices for"
+              default: "ethereum"
+        - name: get_pools
+          description: "Get a list of all defi pools"
+          parameters:
+            - name: count
+              type: integer
+              description: "The number of pools to return"
+              default: 10
+        - name: get_pool_tvl
+          description: "Get the total value locked for a defi pool"
+          parameters:
+            - name: pool
+              type: string
+              description: "The name of the pool"
+            - name: chain
+              type: string
+              description: "The chain to get the total value locked for"
+              default: "ethereum"
+        - name: get_yields
+          description: "Get the yields for a defi protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_chain
+          description: "Get the yields for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_protocol
+          description: "Get the yields for a protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_chain
+          description: "Get the yields for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_protocol
+          description: "Get the yields for a protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_chain
+          description: "Get the yields for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_protocol
+          description: "Get the yields for a protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_chain
+          description: "Get the yields for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_protocol
+          description: "Get the yields for a protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_chain
+          description: "Get the yields for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_protocol
+          description: "Get the yields for a protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_chain
+          description: "Get the yields for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_protocol
+          description: "Get the yields for a protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_chain
+          description: "Get the yields for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_protocol
+          description: "Get the yields for a protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_chain
+          description: "Get the yields for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_protocol
+          description: "Get the yields for a protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_chain
+          description: "Get the yields for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_protocol
+          description: "Get the yields for a protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_chain
+          description: "Get the yields for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_protocol
+          description: "Get the yields for a protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_chain
+          description: "Get the yields for a chain"
+          parameters:
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+        - name: get_yields_by_protocol
+          description: "Get the yields for a protocol"
+          parameters:
+            - name: protocol
+              type: string
+              description: "The name of the protocol"
+            - name: chain
+              type: string
+              description: "The chain to get the yields for"
+              default: "ethereum"
+    - environment:
+      - name: defillama
+        description: "The defillama environment"
+        variables:
+          - name: DEFI_API_BASE
+            type: string
+            default: "https://api.llama.fi"
+            required: false
+          - name: COIN_API_BASE
+            type: string
+            default: "https://coins.llama.fi"
+            required: false
+          - name: YIELDS_API_BASE
+            type: string
+            default: "https://yields.llama.fi"
+            required: false
+          - name: USER_AGENT
+            type: string
+            default: "DEFI-MCP/1.0"
+            required: false
+          - name: API_KEY
+            type: string
+            required: true
