@@ -1,6 +1,7 @@
 - name: defillama
   description: "A tool for getting information about defi protocols"
   version: 1.0.0
+  mode: "sse"
   mcp_config:
     - tools:
         - name: get_protocols
@@ -252,9 +253,6 @@
               description: "The chain to get the yields for"
               default: "ethereum"
     - environment:
-      - name: defillama
-        description: "The defillama environment"
-        variables:
           - name: DEFI_API_BASE
             type: string
             default: "https://api.llama.fi"
@@ -274,3 +272,6 @@
           - name: API_KEY
             type: string
             required: true
+    - startConfig:
+      url: "https://0169e5e468b6913f048e098570023fd40e092870-8080.dstack-prod5.phala.network/sse"
+      port: 8080
