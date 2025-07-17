@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/demcp-demcp-defillama-mcp-badge.png)](https://mseep.ai/app/demcp-demcp-defillama-mcp)
+
 # DeFiLlama MCP
 
 <p align="center">
